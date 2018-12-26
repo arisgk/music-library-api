@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Animals",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Animals.mp3",
+    "artist": "Muse",
+    "album": "The 2nd Law"
+  },
+  {
+    "id": 2,
+    "title": "Coming Back to Life",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Coming+Back+To+Life.mp3",
+    "artist": "Pink Floyd",
+    "album": "The Division Bell"
+  },
+  {
+    "id": 3,
+    "title": "Fade to Black",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Fade+To+Black.mp3",
+    "artist": "Metallica",
+    "album": "Ride the Lightning"
+  },
+  {
+    "id": 4,
+    "title": "Fisherman's Blues",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Fisherman's+Blues.mp3",
+    "artist": "The Waterboys",
+    "album": "Fisherman's Blues"
+  },
+  {
+    "id": 5,
+    "title": "Gold on the Ceiling",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Gold+On+The+Ceiling.mp3",
+    "artist": "The Black Keys",
+    "album": "El Camino"
+  },
+  {
+    "id": 6,
+    "title": "Knights of Cydonia",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Knights+of+Cydonia.mp3",
+    "artist": "Muse",
+    "album": "Black Holes and Revelations"
+  },
+  {
+    "id": 7,
+    "title": "Lost in Hollywood",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Lost+In+Hollywood.mp3",
+    "artist": "System of a Down",
+    "album": "Mezmerize"
+  },
+  {
+    "id": 8,
+    "title": "People Are Strange",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/People+Are+Strange.mp3",
+    "artist": "The Doors",
+    "album": "Strange Days"
+  },
+  {
+    "id": 9,
+    "title": "Tea for One",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Tea+For+One.mp3",
+    "artist": "Led Zeppelin",
+    "album": "Presence"
+  },
+  {
+    "id": 10,
+    "title": "The Pretender",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/The+Pretender.mp3",
+    "artist": "Foo Fighters",
+    "album": "Echoes, Silence, Patience & Grace"
+  },
+  {
+    "id": 11,
+    "title": "Time",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Time.mp3",
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon"
+  },
+  {
+    "id": 12,
+    "title": "Wild Horses",
+    "url": "https://d3u4kouzxbf8f0.cloudfront.net/Wild+Horses.mp3",
+    "artist": "The Rolling Stones",
+    "album": "Sticky Fingers"
+  }
+]
