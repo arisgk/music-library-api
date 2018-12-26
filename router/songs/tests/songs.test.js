@@ -4,11 +4,11 @@ const request = require('supertest');
 const { expect } = require('chai');
 const sinon = require('sinon');
 const httpRouter = require('../../index');
-const songsService = require('../../../domain/songs/service');
+const songsServiceFactory = require('../../../domain/songs/service');
 const data = require('./data');
 
 const songsRepo = sinon.stub();
-const songsSvc = songsService.create(songsRepo);
+const songsSvc = songsServiceFactory.create(songsRepo);
 const app = httpRouter.create({ songsService: songsSvc });
 
 describe('songs route test', function() {

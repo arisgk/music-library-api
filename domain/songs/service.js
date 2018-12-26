@@ -1,6 +1,6 @@
-function create(repository) {
+function create(songsRepository) {
   async function listSongs() {
-    return repository.listSongs();
+    return songsRepository.listSongs();
   }
 
   return {

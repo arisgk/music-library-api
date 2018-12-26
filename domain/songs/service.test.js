@@ -3,11 +3,11 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 const Song = require('./model');
-const songsRepository = require('../../data/songs/repository');
-const songsService = require('./service');
+const songsRepositoryFactory = require('../../data/songs/repository');
+const songsServiceFactory = require('./service');
 
-const songsRepo = songsRepository.create();
-const songsSvc = songsService.create(songsRepo);
+const songsRepo = songsRepositoryFactory.create();
+const songsSvc = songsServiceFactory.create(songsRepo);
 
 const songs = [
   new Song({
