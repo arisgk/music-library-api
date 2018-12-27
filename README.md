@@ -1,4 +1,4 @@
-# music-library-api
+# Music Library API
 
 Playground project implementing a music library RESTful API. Built with [Node.js](https://nodejs.org).
 
@@ -10,7 +10,7 @@ The API currently serves a single route, `/songs`, which returns the list of all
 
 ## Prerequisites
 
-Define an .env file at the root directory of the project containing all the environment variables needed. You can find the keys needed for the env vars key-value pairs in the [configuration](https://github.com/arisgk/music-library-api/blob/master/config/index.js) file.
+Define an .env file at the root directory of the project containing all the environment variables needed. You can find the keys needed for the env vars key-value pairs in the [configuration](https://github.com/arisgk/music-library-api/blob/master/src/config/index.js) file.
 
 ## Using Docker
 
@@ -41,11 +41,11 @@ npm test
 
 The app is designed to use a layered architecture. The architecture is heavily influenced by the [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html). It aims to separate concerns and make the app easier to test and maintain. This also makes it easier to replace a routing framework or a data store, as the core business rules are independent of these layers implementation. Specifically, the following simple division is applied in the app structure:
 
-- [domain](https://github.com/arisgk/music-library-api/tree/master/domain) folder contains modules defining the core entities (models) and business rules (services) of the app. They are the least likely to change when something external (e.g database, routing) changes and thus do not depend on external components. In our use case, this layer will not change if songs are fetched from an external API instead of a JSON file. This increases extensibility and maintainability.
+- [domain](https://github.com/arisgk/music-library-api/tree/master/src/domain) folder contains modules defining the core entities (models) and business rules (services) of the app. They are the least likely to change when something external (e.g database, routing) changes and thus do not depend on external components. In our use case, this layer will not change if songs are fetched from an external API instead of a JSON file. This increases extensibility and maintainability.
 
-- [router](https://github.com/arisgk/music-library-api/tree/master/router) folder contains modules concerned with HTTP routing (routes, HTTP specifics like requests, responses, headers, params validation etc). Routing is implemented using Express.js but we can easily swap it with another framework.
+- [router](https://github.com/arisgk/music-library-api/tree/master/src/router) folder contains modules concerned with HTTP routing (routes, HTTP specifics like requests, responses, headers, params validation etc). Routing is implemented using Express.js but we can easily swap it with another framework.
 
-- [data](https://github.com/arisgk/music-library-api/tree/master/data) folder contains modules (repositories) concerned with data fetching and posting tasks. This is the layer that will be extended if we add a repository that fetches songs from an external API instead of a JSON file.
+- [data](https://github.com/arisgk/music-library-api/tree/master/src/data) folder contains modules (repositories) concerned with data fetching and posting tasks. This is the layer that will be extended if we add a repository that fetches songs from an external API instead of a JSON file.
 
 # Routing
 

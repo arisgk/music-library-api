@@ -8,6 +8,8 @@ USER api
 RUN mkdir -p /home/api/app
 WORKDIR /home/api/app
 
+ENV NODE_ENV production
+
 # Install app dependencies
 COPY --chown=api:nogroup package.json /home/api/app
 RUN npm install
@@ -18,4 +20,4 @@ COPY --chown=api:nogroup . /home/api/app
 EXPOSE 5000
 
 # Start the app
-CMD [ "node", "index.js" ]
+CMD [ "node", "src/server.js" ]
