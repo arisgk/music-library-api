@@ -2,10 +2,10 @@
 /* eslint-disable prefer-arrow-callback, func-names, no-unused-expressions */
 const { expect } = require('chai');
 const Song = require('../../domain/songs/model');
-const songsRepositoryFactory = require('../../data/songs/repository');
+const songsRepository = require('../../data/songs/repository');
 const parsedSongs = require('./songs.json');
 
-const songsRepo = songsRepositoryFactory.create();
+const songsRepo = songsRepository.create();
 
 const expected = parsedSongs.map(
   song =>
