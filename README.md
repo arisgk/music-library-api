@@ -6,6 +6,8 @@ Check out a [deployed version of the API](http://aris-music-library-api.eu-west-
 
 The API currently serves a single route, `/songs`, which returns the list of all available songs in the library.
 
+Songs are uploaded to [Amazon S3](https://aws.amazon.com/s3/) and served using [Amazon CloudFront](https://aws.amazon.com/cloudfront/).
+
 # Quick Start
 
 ## Prerequisites
@@ -58,7 +60,7 @@ The app is designed to use a layered architecture. The architecture is heavily i
 # Possible Extensions
 
 - Complete the songs CRUD and add artists and album support
-- Add users and access management / authentication mechanism
+- Add users and access management / authentication mechanism. Song URLs can be [signed](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-signed-urls.html) in order to only be available to authorized users.
 - Add push functionality using a WebSockets interface (better to be implemented as a separate WebSockets server to be able to scale horizontally independently, as WebSockets are inherently stateful)
 - Document the API using [Swagger](https://swagger.io/)
 - Add continuous integration and deployment (e.g deploy using [CircleCI](https://circleci.com/))
