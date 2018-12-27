@@ -2,9 +2,11 @@
   "name": "music-library-api",
   "version": "0.1.0",
   "description": "Playground project implementing a music library API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "NODE_ENV=TEST mocha './{,!(node_modules)/**}/*.test.js'"
+    "test": "NODE_ENV=TEST mocha './{,!(node_modules)/**}/*.test.js'",
+    "start": "node server.js",
+    "watch-node": "nodemon server.js"
   },
   "repository": {
     "type": "git",
