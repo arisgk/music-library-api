@@ -25,6 +25,7 @@ function create() {
           url: song.url,
           artist: song.artist,
           album: song.album,
+          duration: song.duration,
         }),
     );
   }

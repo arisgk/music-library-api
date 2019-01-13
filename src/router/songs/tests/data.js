@@ -7,6 +7,7 @@ const data = [
     url: 'https://some-host.com/animals',
     artist: 'Muse',
     album: 'The 2nd Law',
+    duration: 263,
   }),
   new Song({
     id: 2,
@@ -14,6 +15,7 @@ const data = [
     url: 'https://some-host.com/coming-back-to-life',
     artist: 'Pink Floyd',
     album: 'The Division Bell',
+    duration: 386,
   }),
   new Song({
     id: 3,
@@ -21,6 +23,7 @@ const data = [
     url: 'https://some-host.com/fade-to-black',
     artist: 'Ride the Lightning',
     album: 'Metallica',
+    duration: 420,
   }),
 ];
 
