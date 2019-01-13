@@ -81,7 +81,11 @@ typings/
 
 # Editor Settings
 .vscode/settings.json
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# OS Files
+.DS_Store

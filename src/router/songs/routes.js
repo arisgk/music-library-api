@@ -8,7 +8,7 @@ function create(service) {
     '/',
     asyncHandler(async (req, res) => {
       const songs = await service.listSongs();
-      res.json(songs);
+      res.json({ songs });
     }),
   );
 

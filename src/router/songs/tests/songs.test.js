@@ -28,7 +28,7 @@ describe('songs route test', function() {
         .get('/songs')
         .expect(200);
 
-      expect(response.body).to.eql(data);
+      expect(response.body).to.eql({ songs: data });
     });
 
     it('should return 500 when the service rejects with an error', function() {
