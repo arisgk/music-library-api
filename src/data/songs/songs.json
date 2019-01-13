@@ -5,6 +5,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Animals.mp3",
     "artist": "Muse",
     "album": "The 2nd Law",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/muse-the-2nd-law.jpg",
     "duration": 263
   },
   {
@@ -13,6 +14,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Coming+Back+To+Life.mp3",
     "artist": "Pink Floyd",
     "album": "The Division Bell",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/pink-floyd-the-division-bell.jpg",
     "duration": 386
   },
   {
@@ -21,6 +23,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Fade+To+Black.mp3",
     "artist": "Metallica",
     "album": "Ride the Lightning",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/metallica-ride-the-lightning.jpeg",
     "duration": 420
   },
   {
@@ -29,6 +32,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Fisherman's+Blues.mp3",
     "artist": "The Waterboys",
     "album": "Fisherman's Blues",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/the-waterboys-fishermans-blues.jpg",
     "duration": 266
   },
   {
@@ -37,6 +41,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Gold+On+The+Ceiling.mp3",
     "artist": "The Black Keys",
     "album": "El Camino",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/the-black-keys-el-camino.jpg",
     "duration": 225
   },
   {
@@ -45,6 +50,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Knights+of+Cydonia.mp3",
     "artist": "Muse",
     "album": "Black Holes and Revelations",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/muse-black-holes-and-revelations.jpg",
     "duration": 366
   },
   {
@@ -53,6 +59,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Lost+In+Hollywood.mp3",
     "artist": "System of a Down",
     "album": "Mezmerize",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/system-of-a-down-mezmerize.jpg",
     "duration": 321
   },
   {
@@ -61,6 +68,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/People+Are+Strange.mp3",
     "artist": "The Doors",
     "album": "Strange Days",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/the-doors-strange-days.jpg",
     "duration": 132
   },
   {
@@ -69,6 +77,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Tea+For+One.mp3",
     "artist": "Led Zeppelin",
     "album": "Presence",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/led-zeppelin-presence.jpg",
     "duration": 566
   },
   {
@@ -77,6 +86,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/The+Pretender.mp3",
     "artist": "Foo Fighters",
     "album": "Echoes, Silence, Patience & Grace",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/foo-fighters-echoes-silence-patience-and-grace.jpg",
     "duration": 270
   },
   {
@@ -85,6 +95,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Time.mp3",
     "artist": "Pink Floyd",
     "album": "The Dark Side of the Moon",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/pink-floyd-the-dark-side-of-the-moon.png",
     "duration": 408
   },
   {
@@ -93,6 +104,7 @@
     "url": "https://d3u4kouzxbf8f0.cloudfront.net/Wild+Horses.mp3",
     "artist": "The Rolling Stones",
     "album": "Sticky Fingers",
+    "albumCover": "https://s3-eu-west-1.amazonaws.com/aris-music-library/the-rolling-stones-sticky-fingers.jpg",
     "duration": 593
   }
 ]

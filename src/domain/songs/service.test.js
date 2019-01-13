@@ -16,6 +16,7 @@ const songs = [
     url: 'https://some-host.com/animals',
     artist: 'Muse',
     album: 'The 2nd Law',
+    albumCover: 'https://some-host.com/muse-the-2nd-law.jpg',
     duration: 263,
   }),
   new Song({
@@ -24,6 +25,7 @@ const songs = [
     url: 'https://some-host.com/coming-back-to-life',
     artist: 'Pink Floyd',
     album: 'The Division Bell',
+    albumCover: 'https://some-host.com/pink-floyd-the-division-bell.jpg',
     duration: 386,
   }),
 ];

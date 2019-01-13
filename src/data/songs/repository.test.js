@@ -15,6 +15,7 @@ const expected = parsedSongs.map(
       url: song.url,
       artist: song.artist,
       album: song.album,
+      albumCover: song.albumCover,
       duration: song.duration,
     }),
 );
