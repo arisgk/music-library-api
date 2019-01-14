@@ -1,3 +1,4 @@
+const http = require('http');
 const express = require('express');
 const cors = require('cors');
 const compress = require('compression')();
@@ -22,7 +23,9 @@ function create({ songsService }) {
   app.use('/songs', songsRoutes.create(songsService));
   app.use(errorHandler);
   app.use(notFoundMiddleware);
-  return app;
+
+  const httpServer = http.createServer(app);
+  return httpServer;
 }
 
 module.exports.create = create;
