@@ -1,18 +1,21 @@
 require('dotenv').config();
 
-const { port } = require('./config');
+const config = require('./config');
+const aws = require('./data/shared/aws');
 const logger = require('./utils/logger');
-const songsRepository = require('./data/songs/repository');
+const songsRepository = require('./data/songs/s3/repository');
 const songsService = require('./domain/songs/service');
 const httpRouter = require('./router');
 const websockets = require('./websockets');
 
-const songsRepo = songsRepository.create();
+const { s3 } = aws.setup(config.aws);
+
+const songsRepo = songsRepository.create(s3, config.aws);
 const songsSvc = songsService.create(songsRepo);
 
 const app = httpRouter.create({ songsService: songsSvc });
 websockets.create({ httpServer: app });
 
-app.listen(port, () => {
-  logger.info(`Listening on *:${port}`);
+app.listen(config.port, () => {
+  logger.info(`Listening on *:${config.port}`);
 });

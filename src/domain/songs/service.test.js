@@ -3,7 +3,7 @@
 const { expect } = require('chai');
 const sinon = require('sinon');
 const Song = require('./model');
-const songsRepository = require('../../data/songs/repository');
+const songsRepository = require('../../data/songs/json/repository');
 const songsService = require('./service');
 
 const songsRepo = songsRepository.create();

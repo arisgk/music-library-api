@@ -1,7 +1,7 @@
 const fs = require('fs');
 const util = require('util');
 const path = require('path');
-const Song = require('../../domain/songs/model');
+const Song = require('../../../domain/songs/model');
 
 const readFile = util.promisify(fs.readFile);
 

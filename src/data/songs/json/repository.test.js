@@ -1,8 +1,8 @@
 /* global it, describe */
 /* eslint-disable prefer-arrow-callback, func-names, no-unused-expressions */
 const { expect } = require('chai');
-const Song = require('../../domain/songs/model');
-const songsRepository = require('../../data/songs/repository');
+const Song = require('../../../domain/songs/model');
+const songsRepository = require('./repository');
 const parsedSongs = require('./songs.json');
 
 const songsRepo = songsRepository.create();
