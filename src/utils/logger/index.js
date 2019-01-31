@@ -8,8 +8,8 @@ const logger = winston.createLogger({
   silent: process.env.NODE_ENV === 'TEST',
 });
 
-// create a stream object with a 'write' function that can be used by morgan
-logger.stream = {
+// create a writable object with a 'write' function that can be used by morgan
+const writable = {
   write: message => logger.info(message),
 };
 
@@ -32,4 +32,5 @@ module.exports = {
   info,
   error: err,
   raw: logger,
+  writable,
 };

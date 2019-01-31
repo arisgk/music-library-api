@@ -17,7 +17,7 @@ app
   .use(bodyParser.json())
   .use(compress)
   .use(cors())
-  .use(morgan('combined', { stream: logger.raw.stream }));
+  .use(morgan('combined', { stream: logger.writable }));
 
 function create({ songsService }) {
   app.use('/songs', songsRoutes.create(songsService));
