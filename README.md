@@ -1,8 +1,8 @@
-# Music Library API
+# Music Library Backend
 
-Playground project implementing a music library RESTful API. Built with [Node.js](https://nodejs.org).
+Playground project implementing a music library backend (RESTful API + Socket.io server). Built with [Node.js](https://nodejs.org).
 
-Check out a [deployed version of the API](http://aris-music-library-api.eu-west-1.elasticbeanstalk.com/songs). It is deployed using [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/).
+Check out a [deployed version of the server](http://aris-music-library-api.eu-west-1.elasticbeanstalk.com/songs). It is deployed using [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/).
 
 The API currently serves a single route, `/songs`, which returns the list of all available songs in the library.
 
